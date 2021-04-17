@@ -1,9 +1,10 @@
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
+import sys
 
 # READ IMAGE
-data_path = "/home/gokhan/opencv-workshop/data/"
+data_path = "../data/"
 img = cv2.imread(data_path + "starry_night.jpg")
 
 if img is None:
